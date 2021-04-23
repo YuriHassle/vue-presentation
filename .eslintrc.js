@@ -1,19 +1,18 @@
 module.exports = {
   root: true,
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: "babel-eslint",
   },
   env: {
     browser: true,
   },
-  extends: [
-    'airbnb-base'
-  ],
+  extends: ["airbnb-base"],
   plugins: [],
   rules: {
-    'generator-star-spacing': 'off',
-    'padded-blocks': 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-  }
+    "linebreak-style": "off",
+    "generator-star-spacing": "off",
+    "padded-blocks": "off",
+    "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+    "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
+  },
 };
