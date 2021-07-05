@@ -1,5 +1,7 @@
 # Vue.JS presentation
 
+## Tradução para português feita por Yuri Hassle. Acessar branch pt-Br
+
 ## Development Setup
 
 ``` bash
